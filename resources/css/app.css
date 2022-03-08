@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    @font-face {
+      font-family: Gilroy;
+      font-weight: 300;
+      src: url(/fonts/gilroy/Gilroy-Regular.woff2) format("woff2");
+    }
+    @font-face {
+      font-family: Gilroy;
+      font-weight: 500;
+      src: url(/fonts/gilroy/Gilroy-Medium.woff2) format("woff2");
+    }
+    @font-face {
+      font-family: Gilroy;
+      font-weight: 600;
+      src: url(/fonts/gilroy/Gilroy-Semibold.woff) format("woff");
+    }
+    @font-face {
+      font-family: Gilroy;
+      font-weight: 700;
+      src: url(/fonts/gilroy/Gilroy-Bold.woff2) format("woff2");
+    }
+  
+    @font-face {
+      font-family: Ranille;
+      font-weight: 700;
+      src: url(/fonts/ranille/Ranille.woff2) format("woff2");
+    }
+}
